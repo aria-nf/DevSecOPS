@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0.0",
+  "released_at": "2026-09-23",
+  "summary": {
+    "title": "Threat Model E-Commerce",
+    "owner": "aria",
+    "description": "oke",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD",
+        "diagramType": "STRIDE",
+        "placeholder": "Deskripsi diagram STRIDE baru",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "aaaaaa"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "aria",
+    "threatTop": 0
+  }
+}
