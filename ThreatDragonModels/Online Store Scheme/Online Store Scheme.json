@@ -100,8 +100,8 @@
           },
           {
             "position": {
-              "x": 1140,
-              "y": 60
+              "x": 650,
+              "y": 10.000000000000114
             },
             "size": {
               "width": 560,
@@ -122,8 +122,17 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
+              "crossingFlows": [
+                "fbf3b86a-e451-49e2-a679-1359c85e2250",
+                "947d20f4-3976-40bf-8bec-a7baa3425e52"
+              ],
+              "containedElements": [
+                "3f345524-4bec-4efd-a52a-b15f8ae7f1b1",
+                "a48fc9b2-99cd-49aa-80a4-2739ef5fd22c",
+                "81bbf437-8b4a-48aa-82fc-3aefa0dfb181",
+                "0e7d5646-189f-4271-b1a2-0900b037207c",
+                "633f8a52-3f7e-4ae5-95ab-f1f3c954a59d"
+              ]
             }
           },
           {
@@ -1871,7 +1880,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "201c916e-de8b-4410-b41a-9ae8914bb96e"
+                "201c916e-de8b-4410-b41a-9ae8914bb96e",
+                "5df934a1-6feb-4bf4-8852-c5b99fd36e24"
               ]
             },
             "labels": [
@@ -1937,7 +1947,7 @@
           {
             "position": {
               "x": 352.9999999999989,
-              "y": 119.99999999999994
+              "y": 100
             },
             "size": {
               "width": 100,
@@ -2086,7 +2096,8 @@
               "protocol": "HTTPS TLS 1.2+",
               "threats": [],
               "trustBoundaryIds": [
-                "201c916e-de8b-4410-b41a-9ae8914bb96e"
+                "201c916e-de8b-4410-b41a-9ae8914bb96e",
+                "5df934a1-6feb-4bf4-8852-c5b99fd36e24"
               ]
             },
             "labels": [
@@ -2106,112 +2117,7 @@
                 "x": 590,
                 "y": 320
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           }
         ],
         "description": "Data Flow Diagram untuk aplikasi toko online dengan semua komponen, data flows, dan threat identifications"
