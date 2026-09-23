@@ -89,8 +89,7 @@
                 "24ed5649-428c-4af7-b08f-2505b575b750",
                 "1a07baee-5daf-4f0d-ba99-b0a0b6f458ca",
                 "db91d638-cd01-48ec-b101-adddaf67c41d",
-                "fbf3b86a-e451-49e2-a679-1359c85e2250",
-                "947d20f4-3976-40bf-8bec-a7baa3425e52"
+                "fbf3b86a-e451-49e2-a679-1359c85e2250"
               ],
               "containedElements": [
                 "b0f244d4-40a1-4097-b412-a857a8b324bd",
@@ -100,8 +99,8 @@
           },
           {
             "position": {
-              "x": 650,
-              "y": 10.000000000000114
+              "x": 580,
+              "y": 20.000000000000114
             },
             "size": {
               "width": 560,
@@ -123,8 +122,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "fbf3b86a-e451-49e2-a679-1359c85e2250",
-                "947d20f4-3976-40bf-8bec-a7baa3425e52"
+                "fbf3b86a-e451-49e2-a679-1359c85e2250"
               ],
               "containedElements": [
                 "3f345524-4bec-4efd-a52a-b15f8ae7f1b1",
@@ -634,8 +632,8 @@
           },
           {
             "position": {
-              "x": 770,
-              "y": 180
+              "x": 700,
+              "y": 195.0000000000001
             },
             "size": {
               "width": 100,
@@ -815,8 +813,8 @@
           },
           {
             "position": {
-              "x": 1050,
-              "y": 300
+              "x": 980,
+              "y": 310
             },
             "size": {
               "width": 100,
@@ -957,8 +955,8 @@
           },
           {
             "position": {
-              "x": 1060,
-              "y": 35.000000000000114
+              "x": 990,
+              "y": 45.000000000000114
             },
             "size": {
               "width": 100,
@@ -1099,8 +1097,8 @@
           },
           {
             "position": {
-              "x": 680,
-              "y": 380
+              "x": 610,
+              "y": 390
             },
             "size": {
               "width": 120,
@@ -1245,8 +1243,8 @@
           },
           {
             "position": {
-              "x": 880,
-              "y": 385.0000000000001
+              "x": 810,
+              "y": 395.0000000000001
             },
             "size": {
               "width": 120,
@@ -1463,8 +1461,8 @@
             },
             "vertices": [
               {
-                "x": 790,
-                "y": 330
+                "x": 720,
+                "y": 340
               }
             ]
           },
@@ -1515,12 +1513,12 @@
             },
             "vertices": [
               {
-                "x": 900,
-                "y": 340
+                "x": 830,
+                "y": 350
               },
               {
-                "x": 920,
-                "y": 360
+                "x": 850,
+                "y": 370
               }
             ]
           },
@@ -1741,8 +1739,8 @@
             },
             "vertices": [
               {
-                "x": 890,
-                "y": 80
+                "x": 820,
+                "y": 90
               }
             ]
           },
@@ -2063,61 +2061,6 @@
               "privilegeLevel": "",
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 12,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "REST API Calls",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS TLS 1.2+",
-              "threats": [],
-              "trustBoundaryIds": [
-                "201c916e-de8b-4410-b41a-9ae8914bb96e",
-                "5df934a1-6feb-4bf4-8852-c5b99fd36e24"
-              ]
-            },
-            "labels": [
-              "REST API Calls"
-            ],
-            "id": "947d20f4-3976-40bf-8bec-a7baa3425e52",
-            "source": {
-              "cell": "b0f244d4-40a1-4097-b412-a857a8b324bd",
-              "port": "892edc24-b2ad-4f2a-8598-a2088cc6ab05"
-            },
-            "target": {
-              "cell": "3f345524-4bec-4efd-a52a-b15f8ae7f1b1",
-              "port": "7a73c09b-64c2-46f4-8c87-7417fc4e016d"
-            },
-            "vertices": [
-              {
-                "x": 590,
-                "y": 320
-              }
-            ]
           }
         ],
         "description": "Data Flow Diagram untuk aplikasi toko online dengan semua komponen, data flows, dan threat identifications"
