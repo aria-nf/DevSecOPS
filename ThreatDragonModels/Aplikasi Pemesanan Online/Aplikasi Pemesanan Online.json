@@ -1,0 +1,28 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0.0",
+  "released_at": "2026-09-23",
+  "summary": {
+    "title": "Aplikasi Pemesanan Online",
+    "owner": "Aria",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Aplikasi Pemesanan Online",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Aria",
+    "threatTop": 0
+  }
+}
